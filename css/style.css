@@ -1,0 +1,22 @@
+.bg-color {
+     background-color: #0f1113;
+}
+
+.rotate .bi::before {
+     transition: transform .5s ease-in-out;
+}
+
+.rotate:hover .bi::before {
+     transform: rotate(360deg);
+}
+
+.vrange {
+     margin-top: 50px;
+     transform: rotate(270deg);
+     -moz-transform: rotate(270deg);
+}
+
+td, th {
+     width: 1%;
+     white-space: nowrap;
+}
